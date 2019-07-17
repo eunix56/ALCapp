@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="eunix56.example.com.alcapp.MyProfile">
+
+  <android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/p_tool"
+    android:background="@color/colorPrimaryDark"/>
+
+   <ImageView
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:layout_gravity="center_horizontal"
+     android:layout_marginTop="20dp"
+     android:scaleType="centerCrop"
+     android:src="@drawable/p"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    android:text="Bakare Eunice"
+    android:textSize="22sp"
+    android:fontFamily="serif"
+    android:textColor="#000"/>
+ <View
+  android:layout_width="match_parent"
+  android:layout_height="1dp"
+  android:layout_marginTop="5dp"
+  android:background="#000"/>
+  <TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="16dp"
+    android:stretchColumns="*"
+    android:layout_marginRight="16dp">
+    <TableRow android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp">
+      <TextView
+        android:text="Track"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+      <TextView
+        android:text="Android"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+
+    </TableRow>
+    <TableRow android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp">
+      <TextView
+        android:text="Country"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+      <TextView
+        android:text="Nigeria"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+    </TableRow>
+    <TableRow android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp">
+      <TextView
+        android:text="Email"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+      <TextView
+        android:text="eunicebakare5@gmail.com"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+
+    </TableRow>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp"
+      android:orientation="horizontal">
+      <TextView
+        android:text="Phone"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+      <TextView
+        android:text="2348126120700"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp"
+      android:orientation="horizontal">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slack Username"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@eunicebakare5"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="#000"/>
+    </LinearLayout>
+  </TableLayout>
+</LinearLayout>
+
